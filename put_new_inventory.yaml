@@ -15,7 +15,7 @@
         method: POST
         status_code: [201, 400, 403]
         body:
-          name: "{{ host_ansible }}"
+          name: "{{ network_ip }}"
           enabled: True
           instance_id: ""
         body_format: json
